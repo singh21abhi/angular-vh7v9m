@@ -1,21 +1,20 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
-import { CustmerService } from './custmer.service';
-
-
+import { CustmerService } from './customer.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  imports: [
-    BrowserModule, RouterModule,
-    HttpClientModule,
-    FormsModule
+  declarations: [
+    AppComponent,
+    NavbarComponent
   ],
-  providers:[CustmerService],
-  declarations: [AppComponent],
+  imports: [
+    BrowserModule, HttpClientModule, FormsModule
+  ],
+  providers: [CustmerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
