@@ -9,8 +9,7 @@ export class CustomerNavbarComponent implements OnInit {
 
   displayMode: DisplayModeEnum;
   displayModeEnum = DisplayModeEnum;
-  totalRecords = 0;
-  pageSize = 10;
+
 
   constructor() { }
 

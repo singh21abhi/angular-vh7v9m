@@ -16,3 +16,9 @@
                 </div>
             </div>
         </div>
+
+        <my-app
+          [hidden]="displayMode !== displayModeEnum.Card"></my-app>
+    
+        <app-customer-grid
+          [hidden]="displayMode !== displayModeEnum.Grid"></app-customer-grid>
