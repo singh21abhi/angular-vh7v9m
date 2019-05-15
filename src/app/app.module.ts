@@ -5,11 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CustmerService } from './customer.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CustomerNavbarComponent } from './customer-navbar/customer-navbar.component';
+import { CustomerGridComponent } from './customer-grid/customer-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    CustomerNavbarComponent,
+    CustomerGridComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, FormsModule
