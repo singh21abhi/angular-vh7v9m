@@ -1,0 +1,25 @@
+<div class="container" *ngIf="customer">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/images/{{customer.gender | lowercase}}.png" class="details-image" />
+    </div>
+    <div class="col-md-10" *ngFor="let customer of customerData">
+      <h4>    
+          {{ customer.firstName }} {{ customer.lastName }}&nbsp;          
+      </h4>
+      <br />
+      {{ customer.address }}
+      <br />
+      {{ customer.city }}, {{ customer.state.name }}
+    </div>
+  </div>    
+  <br /><br />
+  <div class="row">
+    <div class="col-md-12" *ngIf="customer">
+      
+    </div>
+  </div>
+</div>   
+<div *ngIf="!customer" class="container">
+   No customer found
+</div>  

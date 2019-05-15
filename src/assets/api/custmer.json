@@ -1,0 +1,183 @@
+[
+      {
+            "id": 1,
+            "firstName": "ted",
+            "lastName": "james",
+            "gender": "male",
+            "address": "1234 Anywhere St.",
+            "city": " Phoenix ",
+            "state": {
+                "abbreviation": "AZ",
+                "name": "Arizona"
+            },
+      },
+      {
+            "id": 2,
+            "firstName": "Michelle",
+            "lastName": "Thompson",
+            "gender": "female",
+            "address": "345 Cedar Point Ave.",
+            "city": "Encinitas ",
+            "state": {
+                "abbreviation": "CA",
+                "name": "California"
+            },
+      },
+      {
+            "id": 3,
+            "firstName": "Zed",
+            "lastName": "Bishop",
+            "gender": "male",
+            "address": "1822 Long Bay Dr.",
+            "city": " Seattle ",
+            "state": {
+                "abbreviation": "WA",
+                "name": "Washington"
+            },
+      },
+      {
+            "id": 4,
+            "firstName": "Tina",
+            "lastName": "Adams",
+            "gender": "female",
+            "address": "79455 Pinetop Way",
+            "city": "Chandler",
+            "state": {
+                "abbreviation": "AZ",
+                "name": " Arizona "
+            },
+      },
+      {
+            "id": 5,
+            "firstName": "Igor",
+            "lastName": "Minar",
+            "gender": "male",
+            "address": "576 Crescent Blvd.",
+            "city": " Dallas",
+            "state": {
+                "abbreviation": "TX",
+                "name": "Texas"
+            },
+      },
+      {
+            "id": 6,
+            "firstName": "Brad",
+            "lastName": "Green",
+            "gender": "male",
+            "address": "9874 Center St.",
+            "city": "Orlando ",
+            "state": {
+                "abbreviation": "FL",
+                "name": "Florida"
+            },
+      },
+      {
+            "id": 7,
+            "firstName": "Misko",
+            "lastName": "Hevery",
+            "gender": "male",
+            "address": "9812 Builtway Appt #1",
+            "city": "Carey ",
+            "state": {
+                "abbreviation": "NC",
+                "name": "North Carolina"
+            },
+      },
+      {
+            "id": 8,
+            "firstName": "Heedy",
+            "lastName": "Wahlin",
+            "gender": "female",
+            "address": "4651 Tuvo St.",
+            "city": "Anaheim",
+            "state": {
+                "abbreviation": "CA",
+                "name": "California"
+            },
+      },
+      {
+            "id": 9,
+            "firstName": "John",
+            "lastName": "Papa",
+            "gender": "male",
+            "address": "66 Ray St.",
+            "city": " Orlando",
+            "state": {
+                "abbreviation": "FL",
+                "name": "Florida"
+            },
+      },
+      {
+            "id": 10,
+            "firstName": "Tonya",
+            "lastName": "Smith",
+            "gender": "female",
+            "address": "1455 Chandler Blvd.",
+            "city": " Atlanta",
+            "state": {
+                "abbreviation": "GA",
+                "name": "Georgia"
+            },
+      },
+      {
+            "id": 11,
+            "firstName": "ward",
+            "lastName": "bell",
+            "gender": "male",
+            "address": "888 Central St.",
+            "city": "Los Angeles",
+            "state": {
+                "abbreviation": "CA",
+                "name": "California"
+            },
+      },
+      {
+            "id": 12,
+            "firstName": "Marcus",
+            "lastName": "Hightower",
+            "gender": "male",
+            "address": "1699 Atomic St.",
+            "city": "Dallas",
+            "state": {
+                "abbreviation": "TX",
+                "name": "Texas"
+            },
+      },
+      {
+            "id": 13,
+            "firstName": "Thomas",
+            "lastName": "Martin",
+            "gender": "male",
+            "address": "98756 Center St.",
+            "city": "New York",
+            "state": {
+                "abbreviation": "NY",
+                "name": "New York City"
+            },
+      },
+      {
+            "id": 14,
+            "firstName": "Jean",
+            "lastName": "Martin",
+            "gender": "female",
+            "address": "98756 Center St.",
+            "city": "New York City",
+            "state": {
+                "abbreviation": "NY",
+                "name": "New York"
+            },
+      },
+      {
+            "id": 15,
+            "firstName": "Pinal",
+            "lastName": "Dave",
+            "gender": "male",
+            "address": "23566 Directive Pl.",
+            "city": "White Plains",
+            "state": {
+                "abbreviation": "NY",
+                "name": "New York"
+            },
+      }
+      
+]
