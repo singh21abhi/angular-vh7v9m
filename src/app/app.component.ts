@@ -9,8 +9,6 @@ import { CustmerService } from './customer.service';
 export class AppComponent implements OnInit {
   customer: any;
   customerData: any = [];
-   displayMode: DisplayModeEnum;
-  displayModeEnum = DisplayModeEnum;
   constructor(private dataService: CustmerService ) { }
   
   getCustomrData() {
@@ -20,19 +18,12 @@ export class AppComponent implements OnInit {
     })
   }
 
-  changeDisplayMode(mode: DisplayModeEnum) {
-      this.displayMode = mode;
-  }
-
+  
   ngOnInit() {
     this.getCustomrData();
-    this.displayMode = DisplayModeEnum.Card;
       }
 
   }
 
-  enum DisplayModeEnum {
-  Card = 0,
-  Grid = 1,
-}
+
 
